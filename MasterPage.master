@@ -1,0 +1,68 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Cranberry Cupboard</title>
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style>
+	      .marketing {
+	        width: auto;
+	        max-width: 1000px;
+	        min-width: 580px;
+	      }
+	      
+	      .blurb {
+	      	max-height: 100px;
+	      	
+	      }
+	      
+	      .btn {
+	      	margin-bottom: 20px;
+	      }
+	      
+	      .HeroHeading {
+	      font-size: 40px;
+	      font-weight: 300;
+	      line-height: 1;
+	      letter-spacing: -3px;
+	    }
+	    body {
+	      padding-bottom: 40px;
+	      color: rgba(36, 36, 36, 1);
+	      background-image:url("img/wood1_by_yc.jpg") 
+	    }
+	    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+
+        <div class="navbar" id="Header">
+		    <div class="navbar-inner">
+			    <a class="brand" href="Default.aspx">The Cranberry Cupboard</a>
+			    <ul class="nav">
+				    <li id="Home" class="active"><a href="Default.aspx">Home</a></li>
+				    <li id="Gallery"><a href="Gallery.aspx">Gallery</a></li>
+				    <li id="BecomeVendor"><a href="BecomeVendor.aspx">Become A Vendor</a></li>
+				    <li id="VendorLogin"><a href="VendorLogin.aspx">Vendor Login</a></li>
+				    <li id="Location"><a href="Location.aspx">Location &amp; Hours</a></li>
+				    <li id="Contact"><a href="Contact.aspx">Contact Us</a></li>
+			    </ul>
+		    </div>
+	    </div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

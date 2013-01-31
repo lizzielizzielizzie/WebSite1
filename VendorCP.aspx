@@ -30,10 +30,9 @@
     }
 
 	</style>
-	<div class="container-flow offset2">
-	
+
+	<div class="container-flow offset2">	
 		<div class="hero-unit"><h1>Vendor Control Panel</h1>
-	
 			<p class="lead">Here you can see some general information about your stand.</p>
 		</div>
 	</div>	

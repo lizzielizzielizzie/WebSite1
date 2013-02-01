@@ -106,9 +106,16 @@
 			
 		</div>
 		
-			
-		
-		
+		<div style="padding-left:30px;">	
+	    <form>
+			<label>Return Email Address:</label>
+            <input type="text" required/>
+            <label>Subject:</label>
+			<input type="text" required/>
+			<label>Body:</label>
+            <textarea rows="1" class="ckeditor" name="editor1">Compose your message...</textarea>
+        </form>	
+		</div>
 	</div>
 
 

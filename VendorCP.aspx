@@ -30,7 +30,7 @@
 			<label>Subject:</label>
 			<input type="text" />
 			<label>Body:</label>
-			<textarea rows="1" style="padding-right:10%" class="ckeditor" name="editor1">Compose your message...</textarea>
+			<textarea rows="1" class="ckeditor" name="editor1">Compose your message...</textarea>
 		</form>
 	</div>
 </asp:content>

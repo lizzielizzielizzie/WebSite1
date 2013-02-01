@@ -2,8 +2,7 @@
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<head>
-    	<link href="css/ckeditor/contents.css" rel="stylesheet">
-    	<script src="css/ckeditor/ckeditor.js"></script>
+    	
     </head>
 	<style> 
     
@@ -13,25 +12,9 @@
     		font-size: 35px;
     	}
     }
+    </style>
 
-    .featurette-divider {
-      margin: 80px 0; /* Space out the Bootstrap <hr> more */
-     height:3px;
-     
-
-      background-image: -moz-linear-gradient(left, rgba(173, 51, 51, 0.6), rgba(0,0,0,0));
-	  background-image: -webkit-gradient(linear , 0 0, 0 100%, from(#ad3333), to rgba(0,0,0,0));
-	  background-image: -webkit-linear-gradient(left, rgba(173, 51, 51, 0.6), rgba(0,0,0,0));
-	  background-image: -o-linear-gradient(left, rgba(173, 51, 51, 0.6), rgba(0,0,0,0));
-	  background-image: linear-gradient(to right, rgba(173, 51, 51, 0.6), rgba(0,0,0,0)); 
-	  background-repeat: repeat-x;
-	  border-color: rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
-	  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);  
-    }
-
-	</style>
-
-	<div class="container-flow offset2">	
+	<div class="container-flow offset2" style="margin-top:0px;">	
 		<div class="hero-unit"><h1>Vendor Control Panel</h1>
 			<p class="lead">Here you can see some general information about your stand.</p>
 		</div>
@@ -47,7 +30,7 @@
 			<label>Subject:</label>
 			<input type="text" />
 			<label>Body:</label>
-			<textarea class="ckeditor" name="editor1">Write any thing</textarea>
+			<textarea rows="1" style="padding-right:10%" class="ckeditor" name="editor1">Compose your message...</textarea>
 		</form>
 	</div>
 </asp:content>

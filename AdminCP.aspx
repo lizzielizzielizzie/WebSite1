@@ -2,58 +2,99 @@
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="container marketing">
+    <div class="container marketing"  style="padding-left: 30px;">
         <h1>Admin Control Panel</h1>
         <p class="lead">Here you can edit details of your site. You can also upload pictures for the gallery</p>
 
 
-              
+        <hr class="featurette-divider" />
 
-            <div class="bs-docs-example">
-              <div class="accordion" id="accordion2">
-                <div class="accordion-group">
-                  <div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                      Collapsible Group Item #1
+
+     
+        <div class="accordion" id="Accordion1">
+
+            <!-- Start first accordion group -->
+            <div class="accordion-group"> <!-- This is the container for each item -->
+                
+                <div class="accordion-heading"> <!-- This contains the heading, which is a link tag, referencing the id of the content in the section -->
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Inbox">
+                        <p>Inbox</p>
                     </a>
-
-                  </div>
-                  <div id="collapseOne" class="accordion-body collapse in">
-                    <div class="accordion-inner">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-group">
-                  <div class="accordion-heading">
-
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                      Collapsible Group Item #2
-                    </a>
-                  </div>
-                  <div id="collapseTwo" class="accordion-body collapse">
-                    <div class="accordion-inner">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
                 </div>
 
-                <div class="accordion-group">
-                  <div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                      Collapsible Group Item #3
-                    </a>
-                  </div>
-                  <div id="collapseThree" class="accordion-body collapse">
-                    <div class="accordion-inner">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                 <div id="Inbox" class="accordion-body collapse"> <!-- This is the content holder. Set the id to what is in the header link (w/o the #) -->
+                    <div class="accordion-inner"> <!-- inner container for the content... -->
+                        <p>You have <b>0</b> new messages</p> <!-- content itself -->
                     </div>
-
-                  </div>
                 </div>
-              </div>
+
+            </div> <!-- End of the first group-->
+
+            <!-- Start second accordion group -->
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Pictures">
+                        <p>Upload a picture</p>
+                    </a>
+                </div>
+                 <div id="Pictures" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <form action="">
+                            <label>Select a file to add to the gallery</label>
+                            <input type="file" name="Image" />
+                            <br/>
+                            <input type="submit" value="Upload" />
+                        </form>
+                    </div>
+                </div>
             </div>
 
+              <!-- Start third accordion group -->
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Remove">
+                        <p>Remove a picture</p>
+                    </a>
+                </div>
+                 <div id="Remove" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <p>Here the admin will have a list of photos in the gallery (w/ previews?), 
+                            if they ever choose to remove on. Will need some sort of confirmation
+                            box
+                        </p>
+                    </div>
+                </div>
+            </div>          
+
+            <!-- Start fourth accordion group -->
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Edit">
+                        <p>Create & remove a vendor account</p>
+                    </a>
+                </div>
+                 <div id="Edit" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <p><b>THIS IS WHERE WE WILL OUTPUT INFO ON EACH ACCOUNT</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Start fifth accordion group -->
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Settings">
+                        <p>Admin account settings</p>
+                    </a>
+                </div>
+                 <div id="Settings" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <p><b>Here the administrator can change their own password or phone number. Will need some additional verification</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 </asp:Content>

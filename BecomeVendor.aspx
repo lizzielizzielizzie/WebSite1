@@ -13,22 +13,7 @@
 	</script>
 	
 	<style>
-
-    .featurette-divider {
-      margin: 80px 0; /* Space out the Bootstrap <hr> more */
-     height:3px;
-     
-
-      background-image: -moz-linear-gradient(left, rgba(173, 51, 51, 0.6), rgba(0,0,0,0));
-	  background-image: -webkit-gradient(linear , 0 0, 0 100%, from(#ad3333), to rgba(0,0,0,0));
-	  background-image: -webkit-linear-gradient(left, rgba(173, 51, 51, 0.6), rgba(0,0,0,0));
-	  background-image: -o-linear-gradient(left, rgba(173, 51, 51, 0.6), rgba(0,0,0,0));
-	  background-image: linear-gradient(to right, rgba(173, 51, 51, 0.6), rgba(0,0,0,0)); 
-	  background-repeat: repeat-x;
-	  border-color: rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
-	  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);  
-    }
-    
+ 
     .featurette {
     	margin-top: .3in;
     	margin-left: .3in;
@@ -37,7 +22,6 @@
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
       max-width: 970px;
       height: auto;
-       padding: 10;
     }
     .featurette-image {
     	-webkit-border-radius: 5px;

@@ -11,7 +11,7 @@
 
 
      
-        <div class="accordion" id="Accordion1">
+        <div class="accordion" id="Accordion1" style="margin-right: 50px; margin-left: 38px; margin-bottom: 20px">
 
             <!-- Start first accordion group -->
             <div class="accordion-group"> <!-- This is the container for each item -->

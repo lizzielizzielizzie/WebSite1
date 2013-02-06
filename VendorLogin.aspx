@@ -2,15 +2,19 @@
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <script>
-        document.getElementById('VendorLogin').classList.add('active');
-        document.getElementById('Home').classList.remove('active');
-        document.getElementById('Gallery').classList.remove('active');
-        document.getElementById('BecomeVendor').classList.remove('active');
-        document.getElementById('Location').classList.remove('active');
-        document.getElementById('Contact').classList.remove('active');
-        //document.getElementById('Location').classList.remove('active');
-	</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = window.location.pathname;
+            var substr = url.split('/');
+            var urlaspx = substr[substr.length - 1];
+            $('.nav').find('.active').removeClass('active');
+            $('.nav li a').each(function () {
+                if (this.href.indexOf(urlaspx) >= 0) {
+                    $(this).parent().addClass('active');
+                }
+            });
+        });
+    </script>   
 		<!-- Begin Login Form -->
 
 			<div class="container span4 offset4">
@@ -58,8 +62,7 @@
                                         </tr>
                                         <tr>
                                             <td align="right" colspan="2">
-                                                <asp:Button ID="LoginButton" runat="s
-                                                erver" CommandName="Login" Text="Log In" 
+                                                <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Log In" 
                                                     ValidationGroup="Login1" CssClass="btn-large btn-success" />
                                             </td>
                                         </tr>

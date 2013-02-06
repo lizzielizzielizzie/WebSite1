@@ -1,6 +1,19 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" MasterPageFile="~/MasterPage.master" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = window.location.pathname;
+        var substr = url.split('/');
+        var urlaspx = substr[substr.length - 1];
+        $('.nav').find('.active').removeClass('active');
+        $('.nav li a').each(function () {
+            if (this.href.indexOf(urlaspx) >= 0) {
+                $(this).parent().addClass('active');
+            }
+        });
+    });
+    </script>
     <style>
 
 	    @media (max-width: 767px) {

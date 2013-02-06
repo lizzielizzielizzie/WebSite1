@@ -1,16 +1,19 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Contact.aspx.vb" Inherits="Gallery" MasterPageFile="~/MasterPage.master" %>
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <script type="text/javascript">
-        document.getElementById('Contact').classList.add('active');
-
-        document.getElementById('Home').classList.remove('active');
-        document.getElementById('Gallery').classList.remove('active');
-        document.getElementById('BecomeVendor').classList.remove('active');
-        document.getElementById('VendorLogin').classList.remove('active');
-        document.getElementById('Location').classList.remove('active');
-        //document.getElementById('Location').classList.remove('active');
-	</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = window.location.pathname;
+        var substr = url.split('/');
+        var urlaspx = substr[substr.length - 1];
+        $('.nav').find('.active').removeClass('active');
+        $('.nav li a').each(function () {
+            if (this.href.indexOf(urlaspx) >= 0) {
+                $(this).parent().addClass('active');
+            }
+        });
+    });
+    </script>
 	
 
 	<style>

@@ -24,7 +24,7 @@ Partial Class AdminCP
             cmd.Connection = con
 
             Dim PrimaryKey As New SqlParameter("@PrimaryKey", SqlDbType.Int, 32)
-            PrimaryKey.Value = (however you want to get it)
+            PrimaryKey.Value = ()'!!!!!!!!!! However you want to do it
 
             Dim UploadedImage__2 As New SqlParameter("@ImageData", SqlDbType.Image, imageSize.Length)
             UploadedImage__2.Value = imageSize

@@ -2,7 +2,7 @@
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<script>	    CKEDITOR.instances.myinstance.resize(500, 400)</script>
-	<style> 
+	<style type="text/css"> 
     
     @media (max-width: 670px){
     	.hero-unit h1
@@ -31,4 +31,4 @@
             <textarea rows="1" style="padding-right:50%; margin-bottom: 100px;" class="ckeditor" name="editor1">Compose your message...</textarea>
 		</form>
 	</div>
-</asp:content>
+</asp:Content>

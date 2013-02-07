@@ -53,12 +53,9 @@
                     <div class="accordion-inner">
                         <form action="">
                             <label>Select a file to add to the gallery</label>
-                            <input type="file" name="Image" />
-                            <br/>
-                            <input type="submit" value="Upload" />
-                        </form>
-                    </div>
-                </div>
+                            <asp:FileUpload ID="imgUpload" runat="server" Width="282px" />
+                            <br />
+                            <asp:Button ID="btnUpload" runat="server" Text="Upload" /></div>
             </div>
 
               <!-- Start third accordion group -->

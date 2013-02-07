@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="AdminCP.aspx.vb" Inherits="AdminCP" MasterPageFile="~/MasterPage.master" %>
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<<<<<<< HEAD
 <script type="text/javascript">
     $(document).ready(function () {
         var url = window.location.pathname;
@@ -14,6 +15,10 @@
         });
     });
     </script>
+=======
+
+
+>>>>>>> cc0e6641159fe6c540adbc39aec5978a6e3a82bd
     <div class="container marketing"  style="padding-left: 30px;">
         <h1>Admin Control Panel</h1>
         <p class="lead">Here you can edit details of your site. You can also upload pictures for the gallery</p>
@@ -22,13 +27,17 @@
         <hr class="featurette-divider" />
 
 
+<<<<<<< HEAD
         <div class="accordion" id="Accordion1" style="margin-right: 50px; margin-left: 38px; margin-bottom: 20px">
+=======
+       <div class="accordion" id="Accordion1" >
+>>>>>>> cc0e6641159fe6c540adbc39aec5978a6e3a82bd
 
             <!-- Start first accordion group -->
             <div class="accordion-group"> <!-- This is the container for each item -->
                 
                 <div class="accordion-heading"> <!-- This contains the heading, which is a link tag, referencing the id of the content in the section -->
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Inbox">
+                    <a class="accordion-toggle"  data-toggle="collapse" data-parent="#accordion1" href="#Inbox">
                         <p>Inbox</p>
                     </a>
                 </div>
@@ -104,6 +113,4 @@
             </div>
 
         </div>
-    </div>
-
 </asp:Content>

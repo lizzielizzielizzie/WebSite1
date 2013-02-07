@@ -28,7 +28,7 @@
             <div class="accordion-group"> <!-- This is the container for each item -->
                 
                 <div class="accordion-heading"> <!-- This contains the heading, which is a link tag, referencing the id of the content in the section -->
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Inbox">
+                    <a class="accordion-toggle"  data-toggle="collapse" data-parent="#accordion1" href="#Inbox">
                         <p>Inbox</p>
                     </a>
                 </div>
@@ -104,6 +104,4 @@
             </div>
 
         </div>
-    </div>
-
 </asp:Content>

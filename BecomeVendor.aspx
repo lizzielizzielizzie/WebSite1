@@ -121,7 +121,7 @@
 		</div>
 		<hr style="margin-bottom: 15px;" class="featurette-divider" />
 			
-		<div align="center"><a class="btn btn-large btn-success">Contact us &amp; Sign up</a></div>
+		<div align="center" ><a class="btn btn-large btn-success">Contact us &amp; Sign up</a></div>
 		
 	</div>
 

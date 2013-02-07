@@ -55,6 +55,7 @@
                             <label>Select a file to add to the gallery</label>
                             <asp:FileUpload ID="imgUpload" runat="server" Width="282px" />
                             <br />
+                            <asp:label runat="server" ForeColor="Black" ID="lblMessage" Visible="False">File uploaded successfully</asp:label>
                             <asp:Button ID="btnUpload" runat="server" Text="Upload" /></div>
             </div>
 

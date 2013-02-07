@@ -1,4 +1,6 @@
-﻿
+﻿Imports System.Data.SqlClient
+Imports System.Data
+
 Partial Class AdminCP
     Inherits System.Web.UI.Page
 
@@ -22,7 +24,7 @@ Partial Class AdminCP
             cmd.Connection = con
 
             Dim PrimaryKey As New SqlParameter("@PrimaryKey", SqlDbType.Int, 32)
-        PrimaryKey.Value = (however you want to get it)
+            PrimaryKey.Value = (however you want to get it)
 
             Dim UploadedImage__2 As New SqlParameter("@ImageData", SqlDbType.Image, imageSize.Length)
             UploadedImage__2.Value = imageSize
@@ -38,6 +40,5 @@ Partial Class AdminCP
 
         ListView_BldgImages.DataBind()
 
-    End Sub
     End Sub
 End Class

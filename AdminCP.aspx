@@ -85,6 +85,30 @@
                  <div id="Edit" class="accordion-body collapse">
                     <div class="accordion-inner">
                         <p><b>THIS IS WHERE WE WILL OUTPUT INFO ON EACH ACCOUNT</b></p>
+
+
+
+
+                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
+                            DataSourceID="SqlDataSource1">
+                            <Columns>
+                                <asp:BoundField DataField="vendor Name" HeaderText="vendor Names" 
+                                    SortExpression="vendor Name" />
+                                <asp:BoundField DataField="vendor password" HeaderText="vendor password" 
+                                    SortExpression="vendor password" />
+                            </Columns>
+                        </asp:GridView>
+
+
+
+
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                            ConnectionString="<%$ ConnectionStrings:showusersConnectionString %>" 
+                            SelectCommand="SELECT * FROM [vendor show]"></asp:SqlDataSource>
+
+
+
+
                     </div>
                 </div>
             </div>

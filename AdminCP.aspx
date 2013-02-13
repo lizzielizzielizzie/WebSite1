@@ -1,7 +1,10 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="AdminCP.aspx.vb" Inherits="AdminCP" MasterPageFile="~/MasterPage.master" %>
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+<style>
+    a:link {color:#000000;}
+    a:hover {color:#666666;}
+</style>
 
     <div class="container marketing"  style="padding-left: 30px;">
         <h1>Admin Control Panel</h1>
@@ -13,8 +16,10 @@
 
        <div class="accordion" id="Accordion1" >
 
-            <!-- Start first accordion group -->
-            <div class="accordion-group"> <!-- This is the container for each item -->
+             <!--Start first accordion group -->
+            <div style="margin-right: 50px; margin-left: 20px; margin-top: -20px; margin-bottom:auto;">
+
+            <div class="accordion-group accordion-style"> <!-- This is the container for each item -->
                 
                 <div class="accordion-heading"> <!-- This contains the heading, which is a link tag, referencing the id of the content in the section -->
                     <a class="accordion-toggle"  data-toggle="collapse" data-parent="#accordion1" href="#Inbox">
@@ -31,7 +36,7 @@
             </div> <!-- End of the first group-->
 
             <!-- Start second accordion group -->
-            <div class="accordion-group">
+            <div class="accordion-group accordion-style">
                 <div class="accordion-heading">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Pictures">
                         <p>Upload a picture</p>
@@ -50,7 +55,7 @@
             </div>
 
               <!-- Start third accordion group -->
-            <div class="accordion-group">
+            <div class="accordion-group accordion-style">
                 <div class="accordion-heading">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Remove">
                         <p>Remove a picture</p>
@@ -67,7 +72,7 @@
             </div>          
 
             <!-- Start fourth accordion group -->
-            <div class="accordion-group">
+            <div class="accordion-group accordion-style">
                 <div class="accordion-heading">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Edit">
                         <p>Create & remove a vendor account</p>
@@ -81,7 +86,7 @@
             </div>
 
             <!-- Start fifth accordion group -->
-            <div class="accordion-group">
+            <div class="accordion-group accordion-style">
                 <div class="accordion-heading">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Settings">
                         <p>Admin account settings</p>
@@ -92,6 +97,10 @@
                         <p><b>Here the administrator can change their own password or phone number. Will need some additional verification</b></p>
                     </div>
                 </div>
+
+
+                </div>
+
             </div>
 
         </div>

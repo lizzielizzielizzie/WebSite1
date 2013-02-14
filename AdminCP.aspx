@@ -27,10 +27,8 @@
 
        <div class="accordion" id="Accordion1" >
 
-             <!--Start first accordion group -->
-            <div style="margin-right: 50px; margin-left: 20px; margin-top: -20px; margin-bottom:auto;">
-
-            <div class="accordion-group accordion-style"> <!-- This is the container for each item -->
+            <!-- Start first accordion group -->
+            <div class="accordion-group"> <!-- This is the container for each item -->
                 
                 <div class="accordion-heading"> <!-- This contains the heading, which is a link tag, referencing the id of the content in the section -->
                     <a class="accordion-toggle"  data-toggle="collapse" data-parent="#accordion1" href="#Inbox">
@@ -47,7 +45,7 @@
             </div> <!-- End of the first group-->
 
             <!-- Start second accordion group -->
-            <div class="accordion-group accordion-style">
+            <div class="accordion-group">
                 <div class="accordion-heading">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#Pictures">
                         <p>Upload a picture</p>
@@ -130,10 +128,6 @@
                         <p><b>Here the administrator can change their own password or phone number. Will need some additional verification</b></p>
                     </div>
                 </div>
-
-
-                </div>
-
             </div>
 
         </div>

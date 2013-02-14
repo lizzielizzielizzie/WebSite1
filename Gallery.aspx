@@ -2,6 +2,10 @@
 
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <script type="text/javascript">
+
+
+
+
     $(document).ready(function () {
         var url = window.location.pathname;
         var substr = url.split('/');
@@ -13,5 +17,23 @@
             }
         });
     });
+
+
+
     </script>
+
+<ul class="thumbnails">
+  <li class="span0">
+    <a href="#" class="thumbnail">
+      <img alt="Cranberry Cupboard" class="img-rounded" height="240" src="img/flowers.jpg"
+                            width="200" />
+
+    <img alt="Cranberry Cupboard" class="img-rounded" height="240" src="img/flowers.jpg"
+                            width="200" />
+    </a>
+  </li>
+  
+</ul>
+
+    
 </asp:Content>

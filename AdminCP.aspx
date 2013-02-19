@@ -3,19 +3,20 @@
 <asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <style>
     a:link {color:#000000;}
-    a:hover {color:#666666;}
+    a:hover {color:#131313;}
 </style>
 
-    <div class="container marketing"  style="padding-left: 30px;">
+    <div class="container marketing">
+        <div style="padding-left: 30px; margin-bottom: -50px;">
         <h1>Admin Control Panel</h1>
         <p class="lead">Here you can edit details of your site. You can also upload pictures for the gallery</p>
-
-
+        </div>
+    
         <hr class="featurette-divider" />
-
-
+    
+    
        <div class="accordion" id="Accordion1" >
-
+        <div style="padding-left: 30px;">
              <!--Start first accordion group -->
             <div style="margin-right: 50px; margin-left: 20px; margin-top: -20px; margin-bottom:auto;">
 
@@ -102,6 +103,6 @@
                 </div>
 
             </div>
-
+            </div>
         </div>
 </asp:Content>

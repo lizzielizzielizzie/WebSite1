@@ -24,16 +24,41 @@
 
 <ul class="thumbnails">
   <li class="span0">
-    <a href="#" class="thumbnail">
-      <img alt="Cranberry Cupboard" class="img-rounded" height="240" src="img/flowers.jpg"
-                            width="200" />
-
-    <img alt="Cranberry Cupboard" class="img-rounded" height="240" src="img/flowers.jpg"
-                            width="200" />
+    <a href="http://www.google.com" class="thumbnail">
+      <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/flowers.jpg"
+                            width="160" />
     </a>
-  </li>
-  
-</ul>
+
+   <!--  <li class="span0">
+    <a href="#" class="thumbnail">
+      <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Vendor.jpg"       <---- EDIT ME TO CHANGE THE PICTURE
+                            width="160" />
+    </a>
+
+
+     <li class="span0">
+    <a href="#" class="thumbnail">
+      <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Vendor.jpg"       <---- EDIT ME TO CHANGE THE PICTURE
+                            width="160" />
+    </a>
+
+     <li class="span0">
+    <a href="#" class="thumbnail">
+      <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Vendor.jpg"       <---- EDIT ME TO CHANGE THE PICTURE    
+                            width="160" />
+    </a>
+
+     <li class="span0">
+    <a href="#" class="thumbnail">
+      <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Vendor.jpg"       <---- EDIT ME TO CHANGE THE PICTURE
+                            width="160" />
+    </a>
+    -->    
+
+
+
+
+  </ul>
 
     
 </asp:Content>

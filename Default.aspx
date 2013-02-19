@@ -31,10 +31,10 @@
                         occasion. Our business offers a great platform for craftspeople to make and sell 
                         their products, without the high cost of running a full store.</p>
                 </div>
-    <div class="container marketing">
+    <div class="container">
         <h2 align="center">
             Who are you?</h2>
-        <div class="row-fluid">
+        <div class="row-fluid marketing">
 					<!---->
 					<div align="center" class="span4 blurb mark">
                         <img alt="Cranberry Cupboard" class="img-rounded" height="180" src="img/flowers.jpg"

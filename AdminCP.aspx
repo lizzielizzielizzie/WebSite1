@@ -128,7 +128,11 @@
                         <p><b>Here the administrator can change their own password or phone number. Will need some additional verification</b></p>
                     </div>
                 </div>
-            </div>
 
+
+                </div>
+
+            </div>
+            </div>
         </div>
 </asp:Content>

@@ -3343,17 +3343,22 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
 }
 
-.btn-primary {
-  color: #ffffff;
+.btn-primary 
+{
+    color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #990000;
   *background-color: #990000;
+  background-image: -moz-linear-gradient(top, #ad3333, #990000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ad3333), to(#990000));
+  background-image: -webkit-linear-gradient(top, #ad3333, #990000);
+  background-image: -o-linear-gradient(top, #ad3333, #990000);
+  background-image: linear-gradient(to bottom, #ad3333, #990000);
   background-repeat: repeat-x;
-    background-image: linear-gradient(to bottom, #ad3333, #990000);
-    border-left-color: #990000;
-    border-right-color: #990000;
-    border-top-color: #990000;
-    border-bottom-color: #8a0000;
+  border-color: #990000 #990000 #8a0000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .btn-primary:hover,
@@ -3432,12 +3437,16 @@ input[type="button"].btn-block {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: Gold;
   *background-color: Goldenrod;
+  background-image: -moz-linear-gradient(top, Gold, Goldenrod);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(Gold), to(Goldenrod));
+  background-image: -webkit-linear-gradient(top, Gold, Goldenrod);
+  background-image: -o-linear-gradient(top, Gold, Goldenrod);
+  background-image: linear-gradient(to bottom, Gold, Goldenrod);
   background-repeat: repeat-x;
-    background-image: linear-gradient(to bottom, Gold, Goldenrod);
-    border-left-color: Goldenrod;
-    border-right-color: Goldenrod;
-    border-top-color: Goldenrod;
-    border-bottom-color: DarkGoldenRod;
+  border-color: Goldenrod Goldenrod DarkGoldenRod;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .btn-success:hover,
@@ -5802,8 +5811,8 @@ a.badge:hover {
 
 .accordion-style
 {  
-   background-color: #C57B30;
-   box-shadow: 0px 1px 10px #C57B30;
+   background-color: rgba(197, 123, 48, .8);
+   box-shadow: 0px 1px 10px rgba(197, 123, 48, .8);
    
       
 }
@@ -5816,7 +5825,7 @@ a.badge:hover {
 {
     color:Black;
   margin-bottom: 2px;
-  border: 1px solid #C57B30;
+  border: 1px solid rgba(197, 123, 48, .8);
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -5837,7 +5846,7 @@ a.badge:hover {
 
 .accordion-inner {
   padding: 9px 15px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #8A5622;
 }
 
 

@@ -18,7 +18,7 @@
 		<!-- Begin Login Form -->
 
 			<div class="container span4 offset4">
-                <asp:Login ID="Login1" runat="server">
+                <asp:Login ID="Login1" runat="server" EnableTheming="True">
                     <LayoutTemplate>
                         <table cellpadding="1" cellspacing="0" style="border-collapse:collapse;">
                             <tr>

@@ -9,7 +9,7 @@
 	    	}
 	    }</style>
 	    <!--<div id="Home"> The big intro! --> 
-	<div class="container marketing" style="background-color: rgba(0,0,0,0)">
+	<div class="container marketing" style="background-color: rgba(0,0,0,0); height: 100%;">
                 <div class="hero-unit">
                     <h1 class="HeroHeading">
                         Welcome <span class="muted">to The Cranberry Cupboard website.</span></h1>
@@ -63,7 +63,6 @@
                     <a class="btn btn-primary" href="#Gallery">Gallery »</a></p>
             </div>
         </div>
-        <!-- row-fluid -->
 	    </div>
     </div>
 </asp:Content>

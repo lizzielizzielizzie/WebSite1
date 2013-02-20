@@ -117,9 +117,9 @@
 				 here at The Cranberry Cupboard, and let us help you.</p>
 		</div>
 		<hr style="margin-bottom: 15px;" class="featurette-divider" />
-			
+	<div style="margin-bottom: 20px; margin-top: 20px;">
 		<div align="center" ><a class="btn btn-large btn-success">Contact us &amp; Sign up</a></div>
-		
+	</div>
 	</div>
 
 

@@ -13,7 +13,8 @@
             }
         });
     });
-	<style>
+    </script>
+<style>
     a:link {color:#000000;}
     a:hover {color:#666666;}
 </style>

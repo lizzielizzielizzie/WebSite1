@@ -39,9 +39,7 @@
 					<div align="center" class="span4 blurb mark">
                         <img alt="Cranberry Cupboard" class="img-rounded" height="180" src="img/flowers.jpg"
                             width="180" />
-                        <h3>
-                           
-                            A Shopper</h3>
+                        <h3>A Shopper</h3>
                         <p>
                             Are you someone looking to buy the perfect gift for a friend, family member, or 
                             significant other? Look no further! Our store features a vast array of top 

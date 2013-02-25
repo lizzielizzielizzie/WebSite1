@@ -97,12 +97,12 @@ sub {
 }
 
 img {
-  width: auto\9;
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
+  border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
 }
 
 #map_canvas img,
@@ -695,7 +695,7 @@ a:hover {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 11px 0;
 }
 
 .lead {

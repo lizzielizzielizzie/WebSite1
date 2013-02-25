@@ -63,7 +63,8 @@
                                         <tr>
                                             <td align="right" colspan="2">
                                                 <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Log In" 
-                                                    ValidationGroup="Login1" CssClass="btn-large btn-success" />
+                                                    ValidationGroup="Login1" CssClass="btn-large btn-success" 
+                                                    onclick="LoginButton_Click" /> 
                                             </td>
                                         </tr>
                                     </table>

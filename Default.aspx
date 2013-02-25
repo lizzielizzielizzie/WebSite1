@@ -13,6 +13,10 @@
             }
         });
     });
+function 1_onclick() {
+
+}
+
     </script>
     <style>
 
@@ -33,14 +37,14 @@
                 </div>
     <div class="container marketing">
         <h2 align="center">
-            Who are you?</h2>
+            Who Who are you?</h2>
         <div class="row-fluid">
 					<!---->
 					<div align="center" class="span4 blurb mark">
                         <img alt="Cranberry Cupboard" class="img-rounded" height="140" src="http://placehold.it/140x140" 
-                            width="140" />
+                            width="140" id="1" onclick="return 1_onclick()" />
                         <h3>
-                            A Shopper</h3>
+                            A Shopper>
                         <p>
                             Are you someone looking to buy the perfect gift for a friend, family member, or 
                             significant other? Look no further! Our store features a vast array of top 

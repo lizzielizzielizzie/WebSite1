@@ -8,7 +8,7 @@ Partial Class VendorCP
         Using message As New MailMessage()
             message.From = New MailAddress(YourEmail.Text.ToString())
             message.[To].Add(New MailAddress("Admin@crancup.net"))
-            message.Subject = "Message via My Site from " + YourName.Text.ToString()
+            message.Subject = "Message via vendor from " + YourName.Text.ToString()
             message.Body = Comments.Text.ToString()
             Dim client As New SmtpClient()
             client.Host = "127.0.0.1"

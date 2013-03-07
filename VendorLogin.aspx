@@ -17,7 +17,7 @@
     </script>   
 		<!-- Begin Login Form -->
 
-			<div class="container span4 offset4">
+			<div class="container span1 offset4 container marketing" style="padding-bottom: 15px; padding-left: 10px; padding-right: 0px;">
                 <asp:Login ID="Login1" runat="server" EnableTheming="True">
                     <LayoutTemplate>
                         <table cellpadding="1" cellspacing="0" style="border-collapse:collapse;">

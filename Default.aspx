@@ -9,7 +9,6 @@
 	    	}
 	    }</style>
 	    <!--<div id="Home"> The big intro! --> 
-	<div>
                 <div class="hero-unit container marketing">
                     <h1 class="HeroHeading">
                         Welcome <span class="muted">to The Cranberry Cupboard website.</span></h1>
@@ -18,7 +17,7 @@
                         occasion. Our business offers a great platform for craftspeople to make and sell 
                         their products, without the high cost of running a full store.</p>
                 </div>
-    <div class="container marketing">
+    <div class="container marketing" style="padding-bottom: 290px;">
         <h2 align="center">
             Who are you?</h2>
         <div class="row-fluid" style="height:100%">

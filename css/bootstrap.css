@@ -661,6 +661,23 @@ a:hover {
   float: right;
 }
 
+.btn-success {
+ color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: Gold;
+  *background-color: Goldenrod;
+  background-image: -moz-linear-gradient(top, Gold, Goldenrod);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(Gold), to(Goldenrod));
+  background-image: -webkit-linear-gradient(top, Gold, Goldenrod);
+  background-image: -o-linear-gradient(top, Gold, Goldenrod);
+  background-image: linear-gradient(to bottom, Gold, Goldenrod);
+  background-repeat: repeat-x;
+  border-color: Goldenrod Goldenrod DarkGoldenRod;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -3433,22 +3450,7 @@ input[type="button"].btn-block {
   background-color: #942a25 \9;
 }
 
-.btn-success {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: Gold;
-  *background-color: Goldenrod;
-  background-image: -moz-linear-gradient(top, Gold, Goldenrod);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(Gold), to(Goldenrod));
-  background-image: -webkit-linear-gradient(top, Gold, Goldenrod);
-  background-image: -o-linear-gradient(top, Gold, Goldenrod);
-  background-image: linear-gradient(to bottom, Gold, Goldenrod);
-  background-repeat: repeat-x;
-  border-color: Goldenrod Goldenrod DarkGoldenRod;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
+
 
 .btn-success:hover,
 .btn-success:active,

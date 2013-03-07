@@ -97,13 +97,17 @@ sub {
 }
 
 img {
-  width: auto\9;
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
+  border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width: auto 10;
+  height: auto 10 ;
+    max-width: 100%;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
 }
+
+
 
 #map_canvas img,
 .google-maps img {

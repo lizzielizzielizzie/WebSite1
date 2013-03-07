@@ -19,13 +19,14 @@
     });
 
 
-
+    
     </script>
     <!-- Xavier Wattermann:
     A simply gallery with pictures.  When a user hover overs a picture, the border changes color. 
     To add:  Allow the user to click a picture, and it takes them to slideshow, where they can click to the next picture, and such 
     
      -->
+     
 <ul class="thumbnails">
   <li class="span0">
     <a href="/WebSite1/img/Crancup_StoreFront.jpg" target="_blank"  class="thumbnail"> <!--target="_blank"   TO OPEN IN A NEW TAB  -->
@@ -96,7 +97,7 @@
 
      <li class="span0">
     <a href="/WebSite1/img/Steelers.JPG" target="_blank"   class="thumbnail">
-      <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Steelers.JPG"      
+      <img  alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Steelers.JPG"      
                             width="160" />
     </a>
 

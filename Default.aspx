@@ -22,8 +22,7 @@
 	    	}
 	    }</style>
 	    <!--<div id="Home"> The big intro! --> 
-	<div class="container marketing" style="background-color: rgba(0,0,0,0)">
-                <div class="hero-unit">
+                <div class="hero-unit container marketing">
                     <h1 class="HeroHeading">
                         Welcome <span class="muted">to The Cranberry Cupboard website.</span></h1>
                     <p>
@@ -31,10 +30,10 @@
                         occasion. Our business offers a great platform for craftspeople to make and sell 
                         their products, without the high cost of running a full store.</p>
                 </div>
-    <div class="container marketing">
+    <div class="container marketing" style="padding-bottom: 290px;">
         <h2 align="center">
             Who are you?</h2>
-        <div class="row-fluid">
+        <div class="row-fluid" style="height:100%">
 					<!---->
 					<div align="center" class="span4 blurb mark">
                         <img alt="Cranberry Cupboard" class="img-rounded" height="180" src="img/flowers.jpg"
@@ -56,7 +55,7 @@
                 <p>
                     Are you a local craftsperson, looking to sell your goods, but you can&#39;t quite 
                     make the financial commitment needed to open a full store? Are you an artist who 
-                    wants to sell? Or maybe you just have a marketable hobby, like jewlery making. 
+                    wants to sell? Or maybe you just have a marketable hobby, like jewlery making.
                     Regardless of what you do, if you&#39;re looking to sell, stop by our store<!-- Put a link here to 
 						the contact us page? --> and see about renting out a space with reasonable, 
                     flexible payments.</p>
@@ -77,7 +76,6 @@
                     <a class="btn btn-primary" href="Gallery.aspx">Gallery »</a></p>
             </div>
         </div>
-        <!-- row-fluid -->
 	    </div>
     </div>
 </asp:Content>

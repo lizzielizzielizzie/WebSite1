@@ -106,7 +106,17 @@
 		<div class="featurette">
 			
 			<h2 class="HeroHeading" style="margin-top: -50px; margin-bottom: -30px;">Questions? Send us a Message!</h2>
-			
+			           <p>Please provide your comments</p>
+            <p>Your name:<br />
+                <asp:TextBox ID="YourName" runat="server" Width="150px" required="True"/><br />
+                Your email address:<br />
+                <asp:TextBox ID="YourEmail" runat="server" Width="150px" required="True"/><br />
+                Your comments:<br />
+                <asp:TextBox ID="Comments" runat="server" TextMode="MultiLine" Rows="10" Width="400px" CssClass="ckeditor" style="padding-right:50%; margin-bottom: 100px;" name="editor1" required="True" />
+            </p>
+            <p>
+                <asp:Button ID="Button1" runat="server" Text="Send" OnClick="Button1_Click" />
+            </p>  
 		</div>
 		
 		<div style="padding-left:30px;">	

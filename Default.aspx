@@ -22,7 +22,8 @@
 	    	}
 	    }</style>
 	    <!--<div id="Home"> The big intro! --> 
-                <div class="hero-unit container marketing">
+	<div class="container marketing" style="background-color: rgba(0,0,0,0)">
+                <div class="hero-unit">
                     <h1 class="HeroHeading">
                         Welcome <span class="muted">to The Cranberry Cupboard website.</span></h1>
                     <p>

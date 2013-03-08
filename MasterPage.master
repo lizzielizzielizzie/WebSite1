@@ -66,7 +66,7 @@
     <form id="form1" runat="server">
     <div id="PageWrapper">
     
-        <div class="navbar" id="Header">
+        <div class="navbar navbar-inverse navbar-fixed-top" id="Header">
 		    <div class="navbar-inner">
 			    <a class="brand" href="Default.aspx">The Cranberry Cupboard</a>
 			    <ul class="nav" runat="server">

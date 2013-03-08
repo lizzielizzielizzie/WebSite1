@@ -45,7 +45,15 @@ html {
 
 /* marketing from marketing-alternative */
 
-
+.marketing2 
+ {
+       
+      	background-color:rgba(170,99,66,.8);
+      	-webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+      }
+      
  .marketing 
  {
         margin: 60px 0;

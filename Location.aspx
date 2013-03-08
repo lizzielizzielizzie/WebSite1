@@ -45,7 +45,7 @@
 		<!-- The map code...-->
 		<iframe style="float: left;margin-right: 50px; margin-left: 30px" width="425" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=The+Cranberry+Cupboard,+Lyons+Road,+Centerville,+OH&amp;aq=0&amp;oq=The+Cranber&amp;sll=39.632091,-84.15878&amp;sspn=0.117928,0.198784&amp;t=h&amp;ie=UTF8&amp;hq=The+Cranberry+Cupboard,&amp;hnear=Lyons+Rd,+Ohio&amp;ll=39.631613,-84.193253&amp;spn=0.009194,0.050258&amp;output=embed"></iframe>
          
-            <img src="img/Crancup_StoreFront.jpg"/> <br /> <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=The+Cranberry+Cupboard,+Lyons+Road,+Centerville,+OH&amp;aq=0&amp;oq=The+Cranber&amp;sll=39.632091,-84.15878&amp;sspn=0.117928,0.198784&amp;t=h&amp;ie=UTF8&amp;hq=The+Cranberry+Cupboard,&amp;hnear=Lyons+Rd,+Ohio&amp;ll=39.631613,-84.193253&amp;spn=0.009194,0.050258" style="color:#0000FF;margin-left:29px;text-align:left">View Larger Map</a></small>
+            <img src="img/Crancup_StoreFront.jpg" width="425" height="450"> <br /> <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=The+Cranberry+Cupboard,+Lyons+Road,+Centerville,+OH&amp;aq=0&amp;oq=The+Cranber&amp;sll=39.632091,-84.15878&amp;sspn=0.117928,0.198784&amp;t=h&amp;ie=UTF8&amp;hq=The+Cranberry+Cupboard,&amp;hnear=Lyons+Rd,+Ohio&amp;ll=39.631613,-84.193253&amp;spn=0.009194,0.050258" style="color:#0000FF;margin-left:29px;text-align:left">View Larger Map</a></small>
 		</div>
         <div style="margin-left: 500;">
            

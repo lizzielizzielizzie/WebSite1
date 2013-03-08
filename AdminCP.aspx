@@ -39,10 +39,12 @@
                     <div class="accordion-inner">
                         <form action="">
                             <label>Select a file to add to the gallery</label>
-                            <asp:FileUpload ID="imgUpload" runat="server" Width="282px" />
+                            <asp:Label ID="lbldisplayimage" runat="server"></asp:Label>
+                            <asp:fileupload ID="imgUpload" runat="server" Width="282px" />
                             <br />
                             <asp:label runat="server" ForeColor="Black" ID="lblMessage" Visible="False">File uploaded successfully</asp:label>
                             <asp:Button ID="btnUpload" runat="server" Text="Upload" /></div>
+                          
             </div>
 
               <!-- Start third accordion group -->
@@ -54,12 +56,13 @@
                 </div>
                  <div id="Remove" class="accordion-body collapse">
                     <div class="accordion-inner">
+                    </div>
+                </div>
                         <p>Here the admin will have a list of photos in the gallery (w/ previews?), 
                             if they ever choose to remove on. Will need some sort of confirmation
                             box
-                        </p>
-                    </div>
-                </div>
+                            </p>
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             </div>          
 
             <!-- Start fourth accordion group -->

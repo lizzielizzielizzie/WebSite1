@@ -61,7 +61,7 @@
       <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Country Store.JPG"      
                             width="160" />
     </a>
-
+ 
 </ul>
 <!-- Only 5 Pictures per Line.  Use a simple page break to seperate them -->
 

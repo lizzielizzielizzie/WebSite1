@@ -37,7 +37,7 @@
         <div class="row-fluid marketing">
 					<!---->
 					<div align="center" class="span4 blurb mark">
-                        <img alt="Cranberry Cupboard" class="img-rounded" height="10" src="img/flowers.jpg"
+                        <img alt="Cranberry Cupboard" class="img-rounded" height="180" src="img/flowers.jpg"
                             width="180" />
                         <h3>
                            

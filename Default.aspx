@@ -23,7 +23,7 @@
         <div class="row-fluid" style="height:100%">
 					<!---->
 					<div align="center" class="span4 blurb mark">
-                        <img alt="Cranberry Cupboard" class="img-rounded" height="140" src="http://placehold.it/140x140" 
+                        <img alt="Cranberry Cupboard" class="img-rounded" height="140" src="img/flowers.jpg"
                             width="140" />
                         <h3>
                             A Shopper</h3>
@@ -33,11 +33,13 @@
                             quality, locally crafted products for any occasion. We also have lots of goods 
                             for daily, normal use!</p>
                         <p>
-                            <a class="btn btn-primary" href="#Location">Location &amp; Hours »</a></p>
+                            <a class="btn btn-primary" href="Location.aspx">Location &amp; Hours »</a></p>
             </div>
             <div align="center" class="span4 blurb">
-                <img class="img-rounded" src="http://placehold.it/140x140" />
+                <img alt="Cranberry Cupboard" class="img-rounded" height="140" src="img/Candels.JPG"
+                            width="140" />
                 <h3>
+                    
                     A Local Craftsperson</h3>
                 <p>
                     Are you a local craftsperson, looking to sell your goods, but you can&#39;t quite 
@@ -47,10 +49,11 @@
 						the contact us page? --> and see about renting out a space with reasonable, 
                     flexible payments.</p>
                 <p>
-                    <a class="btn btn-primary" href="#BecomeVendor">Learn More »</a></p>
+                    <a class="btn btn-primary" href="BecomeVendor.aspx">Learn More »</a></p>
             </div>
             <div align="center" class="span4 blurb">
-                <img class="img-rounded" src="http://placehold.it/140x140" />
+                <img alt="Cranberry Cupboard" class="img-rounded" height="140" src="img/VendorStuff.jpg"
+                            width="140" />
                 <h3>
                     In Need Of An Idea</h3>
                 <p>
@@ -59,7 +62,7 @@
                     as soon as it arrives. You can also check out this gallery for other good gift 
                     ideas</p>
                 <p>
-                    <a class="btn btn-primary" href="#Gallery">Gallery »</a></p>
+                    <a class="btn btn-primary" href="Gallery.aspx">Gallery »</a></p>
             </div>
         </div>
 	    </div>

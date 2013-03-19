@@ -31,7 +31,7 @@ Partial Class AdminCP
     End Sub
 
     Protected Sub btnUpload_Click(sender As Object, e As System.EventArgs) Handles btnUpload.Click
-        Dim savePath As String = "C:\Users\14149\Documents\GitHub\WebSite1\imagestorage\"
+        Dim savePath As String = "~\imagestorage\"
         Dim fileName As String = imgUpload.FileName
 
         savePath += fileName
@@ -50,5 +50,5 @@ Partial Class AdminCP
         ' End If
     End Sub
 
-   
+
 End Class

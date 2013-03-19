@@ -27,7 +27,7 @@
     
      -->
      
-<ul class="thumbnails">
+<ul class="thumbnails" id="Thumbnails" runat="server" onload="Thumbnails_Load">
   <li class="span0">
     <a href="/WebSite1/img/Crancup_StoreFront.jpg" target="_blank"  class="thumbnail"> <!--target="_blank"   TO OPEN IN A NEW TAB  -->
       <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Crancup_StoreFront.jpg"

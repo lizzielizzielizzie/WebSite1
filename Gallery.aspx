@@ -27,14 +27,15 @@
     
      -->
      
-<ul class="thumbnails" id="Thumbnails" runat="server" onload="Thumbnails_Load">
+<ul class="thumbnails" id="Thumbnails" runat="server">
   <li class="span0">
     <a href="/WebSite1/img/Crancup_StoreFront.jpg" target="_blank"  class="thumbnail"> <!--target="_blank"   TO OPEN IN A NEW TAB  -->
       <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Crancup_StoreFront.jpg"
                             width="160" />
     </a>
 
-    
+    <asp:Image ImageUrl="~/imagestorage/banana.png" runat=server/>
+
      <li class="span0">
     <a href="/WebSite1/img/Fireplace.JPG" target="_blank" class="thumbnail">
       <img alt="Cranberry Cupboard" class="img-rounded" height="200" src="img/Fireplace.JPG"       

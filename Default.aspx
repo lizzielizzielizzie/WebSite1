@@ -37,8 +37,7 @@
         <div class="row-fluid" style="height:100%">
 					<!---->
 					<div align="center" class="span4 blurb mark">
-                        <img alt="Cranberry Cupboard" class="img-rounded" height="180" src="img/flowers.jpg"
-                            width="180" />
+                        <img alt="Cranberry Cupboard" class="img-rounded" height="140" src="img/flowers.jpg" width="140" />
                         <h3>A Shopper</h3>
                         <p>
                             Are you someone looking to buy the perfect gift for a friend, family member, or 
@@ -49,10 +48,8 @@
                             <a class="btn btn-primary" href="Location.aspx">Location &amp; Hours »</a></p>
             </div>
             <div align="center" class="span4 blurb">
-                <img alt="Cranberry Cupboard" class="img-rounded" height="180" src="img/Candels.JPG"
-                            width="180" />
-                <h3>
-                    A Local Craftsperson</h3>
+                <img alt="Cranberry Cupboard" class="img-rounded" height="140" src="img/Candels.JPG" width="140" />
+                <h3>A Local Craftsperson</h3>
                 <p>
                     Are you a local craftsperson, looking to sell your goods, but you can&#39;t quite 
                     make the financial commitment needed to open a full store? Are you an artist who 
@@ -64,10 +61,8 @@
                     <a class="btn btn-primary" href="BecomeVendor.aspx">Learn More »</a></p>
             </div>
             <div align="center" class="span4 blurb">
-                <img alt="Cranberry Cupboard" class="img-rounded" height="180" src="img/VendorStuff.jpg"
-                            width="180" />
-                <h3>
-                    In Need Of An Idea</h3>
+                <img alt="Cranberry Cupboard" class="img-rounded" height="140" src="img/VendorStuff.jpg" width="140" />
+                <h3>In Need Of An Idea</h3>
                 <p>
                     Couldn&#39;t quite find what you were looking for? We also have access to a variety 
                     of non-local gift selling companies, and can order something for you to pick up 
